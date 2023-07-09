@@ -1,0 +1,134 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url('../images/banner/banner1.png');
+    height: 808px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    margin: 0% auto;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.header-title {
+    color: #151414;
+    width: 525px;
+    font-size: 65px;
+    font-weight: 700;
+    /* background-color: green; */
+
+    margin-top: 216px;
+    margin-right: 230px;
+}
+
+.title-description {
+    color: #444343;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    /* background-color: blanchedalmond; */
+
+    margin-top: 25px;
+    margin-right: 230px;
+
+}
+
+.btn-contact {
+    margin-top: 30px;
+    margin-right: 230px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 64px;
+    color: #fff;
+    background: #F15B22;
+}
+
+.btn-contact:hover {
+    background: orangered;
+}
+
+.section-title-failures {
+    display: flex;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700; 
+    max-width: 288px;
+}
+
+.section-title-plans{
+    /* display: flex; */
+    /* background-color: #444343; */
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700; 
+
+    
+}
+
+section{
+    margin: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-failures{
+    gap: 100px;
+}
+
+.image-failures{
+    margin-left: 228px;
+    object-fit: contain;
+}
+
+.info-failures{
+    margin-top: 370px;
+}
+
+.description-failures{
+    max-width: 416px;
+    margin-top: 16px;
+    object-fit: contain;
+    /* background-color: #F15B22; */
+    margin-bottom: 8px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li{
+    margin-top: 8px;
+}
+
+.points{
+    display: flex;
+    margin-top: 56px;
+    justify-content: center;
+}
+.plans{
+    display: block;
+    margin-top: 56px;
+    /* display: block; */
+    /* display: flex; */
+    text-align: center;
+}
+
+.plans-points{
+    margin: 0px 56px;
+}
+
+ul li:before {
+    color: green;
+    content: '✓';
+}
