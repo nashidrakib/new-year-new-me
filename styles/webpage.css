@@ -172,6 +172,10 @@ li {
 
 }
 
+.white-btn:hover,.margin-fix:hover{
+    background-color: orange;
+}
+
 ul li:before {
     color: green;
     content: '✓';
